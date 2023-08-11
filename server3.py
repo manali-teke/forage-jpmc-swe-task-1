@@ -337,4 +337,4 @@ if __name__ == '__main__':
     if not os.path.isfile('test.csv'):
         print("No data found, generating...")
         generate_csv()
-    run(App())
+    run(App(), port=8081)
